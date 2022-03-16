@@ -1,0 +1,22 @@
+.hidden {
+    display: none;
+}
+
+#date-picker-label {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+#content-container {
+    padding: 2em;
+    border-radius: 5px;
+    display: flex;
+    align-items: normal;
+    height: calc(100vh - 3.5em);
+    justify-content: center;
+    align-items: center;
+}
+
+.test {
+    color: red;
+}

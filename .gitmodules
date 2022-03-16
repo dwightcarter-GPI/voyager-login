@@ -1,0 +1,3 @@
+[submodule "src/voyager.widgets"]
+	path = src/voyager.widgets
+	url = https://github.com/Greenman-Pedersen-Inc/voyager.widgets
