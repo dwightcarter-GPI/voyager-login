@@ -1,0 +1,130 @@
+.banner{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+.banner-logos{
+  display: flex;
+  padding: 0 20px 0 20px;
+}
+.banner h1{
+  letter-spacing: 10px;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+.banner img{
+  height: 30px;
+  width: auto;
+}
+.voyager-row {
+  margin: 0 auto;
+  vertical-align: middle;
+}
+.cta-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.cta-header {
+  font-size: 4rem;
+  letter-spacing: 10px;
+}
+.cta-button {
+  border-radius: 20px;
+  padding: 10px 50px;
+  background-color: #2c4364;
+  font-weight: 600;
+  letter-spacing: 3px;
+  border-color: transparent;
+}
+.cta-body {
+  width: 60%;
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+.voyager-msg-container {
+  display: flex;
+  align-items: center;
+}
+.voyager-cta{
+  text-shadow: 3px 3px 7px rgb(0 0 0);
+}
+.voyager-wrapper {
+  padding: 20px 15px;
+}
+.login-welcome h3{
+    font-size: 1.3rem;
+    letter-spacing: 3px;
+    padding-bottom: 20px;
+}
+.login-head h1{
+    font-size: 2rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 10px;
+}
+.form-control {
+  padding: 0.85rem 0.75rem;
+}
+.form-body-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.form-button {
+  width: 100%;
+  padding: 0.85rem;
+  background-color: #3572cb;
+  border-color: transparent;
+}
+.footer-msg{
+    display: flex;
+    margin: 10px 0 40px 0;
+}
+.footer-msg h1 {
+    cursor: pointer;
+    float: left;  
+    font-size: 15px;
+}
+.form-copywright {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.form-copywright h1{
+    font-size: 15px;
+}
+body {
+  background: url(https://wallpaperaccess.com/full/4743003.jpg) no-repeat center
+    center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  color: white;
+}
+.voyager-body {
+  background-color: rgb(30 49 78 / 67%);
+  backdrop-filter: blur(2);
+  border-radius: 10px;
+  max-width: 350px;
+  margin: 0 auto;
+}
+.voyager-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+#signCred{
+  display: none;
+}
+#forgotEmail{
+  display: none;
+}
+#resetBtn{
+display: none;
+}
