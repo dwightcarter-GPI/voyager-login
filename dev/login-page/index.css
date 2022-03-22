@@ -6,6 +6,7 @@
 .banner-logos{
   display: flex;
   padding: 0 20px 0 20px;
+  gap:10px;
 }
 .banner h1{
   letter-spacing: 10px;
@@ -98,7 +99,7 @@ form {
     font-size: 15px;
 }
 body {
-  background: url(https://wallpaperaccess.com/full/4743003.jpg) no-repeat center
+  background: url("./pub/media/jerseycity2.png") no-repeat center
     center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -108,7 +109,7 @@ body {
   color: white;
 }
 .voyager-body {
-  background-color: rgb(30 49 78 / 67%);
+  background-color: rgb(49 81 130 / 67%);
   backdrop-filter: blur(2);
   border-radius: 10px;
   max-width: 350px;
